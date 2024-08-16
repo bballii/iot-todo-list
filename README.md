@@ -1,10 +1,11 @@
 <p align="left">
-  <img src="https://img.icons8.com/external-tal-revivo-regular-tal-revivo/96/external-readme-is-a-easy-to-build-a-developer-hub-that-adapts-to-the-user-logo-regular-tal-revivo.png" width="100" />
-</p>
-<p align="left">
     <h1 align="left">IOT-TODO-LIST</h1>
 </p>
+
+<hr>
+
 ## Description
+
 **iot-todo-list** is a Laravel-based project that integrates Internet of Things (IoT) functionality with an ESP microcontroller. The ESP, programmed using the Arduino IDE, manages a series of LEDs that visually represent the status of tasks in the to-do list.
 
 ## Features
@@ -13,9 +14,11 @@
 -   **Task Completion:** Marking a task as completed changes the LED's color to represent its completion.
 -   **Task Deletion:** Deleting a task turns off the corresponding LED, reflecting the removal of the task from the list.
 
-This project demonstrates the integration of IoT devices with web applications, providing a visual and interactive approach to task management.
+## Arduino Code
 
-<hr>
+The code for the ESP microcontroller is available in the [Arduino repository to be pushed soon](<Arduino Repository URL>).
+
+This project demonstrates the integration of IoT devices with web applications, providing a visual and interactive approach to task management.
 
 ## Quick Links
 
