@@ -40,85 +40,48 @@ git clone https://github.com/bballii/iot-todo-list.git
 cd iot-todo-list
 ```
 
-3. Install the dependencies:
+## Set up Laravel Backend
 
-```sh
+### 1. Install dependencies
+
+```bash
 composer install
 ```
 
-### Running iot-todo-list
+### 2. Create .env file
 
-Use the following command to run iot-todo-list:
-
-```sh
-php main.php
+```bash
+cp .env.example .env
 ```
 
-### Tests
+#### Add the following in .env file
 
-To execute tests, run:
+##### MQTT Credentials
 
-```sh
-vendor/bin/phpunit
+```
+MQTT_HOST=<mqtt host>
+MQTT_PORT=1883
+MQTT_CLIENT_ID="todo-list"
+MQTT_AUTH_USERNAME=<mqtt username>
+MQTT_AUTH_PASSWORD=<mqtt password>
 ```
 
----
+### 3. Generate application key:
 
-## Project Roadmap
+```bash
+php artisan key:generate
+```
 
--   [x] `► INSERT-TASK-1`
--   [ ] `► INSERT-TASK-2`
--   [ ] `► ...`
+### 4. Set up database configuration in the .env file.
 
----
+### 5. Run database migrations :
 
-## Contributing
+```bash
+php artisan migrate
+```
 
-Contributions are welcome! Here are several ways you can contribute:
+### 6. Serve the Laravel application:
 
--   **[Submit Pull Requests](https://github.com/bballii/iot-todo-list.git/blob/main/CONTRIBUTING.md)**: Review open PRs, and submit your own PRs.
--   **[Join the Discussions](https://github.com/bballii/iot-todo-list.git/discussions)**: Share your insights, provide feedback, or ask questions.
--   **[Report Issues](https://github.com/bballii/iot-todo-list.git/issues)**: Submit bugs found or log feature requests for Iot-todo-list.
-
-<details closed>
-    <summary>Contributing Guidelines</summary>
-
-1. **Fork the Repository**: Start by forking the project repository to your GitHub account.
-2. **Clone Locally**: Clone the forked repository to your local machine using a Git client.
-    ```sh
-    git clone https://github.com/bballii/iot-todo-list.git
-    ```
-3. **Create a New Branch**: Always work on a new branch, giving it a descriptive name.
-    ```sh
-    git checkout -b new-feature-x
-    ```
-4. **Make Your Changes**: Develop and test your changes locally.
-5. **Commit Your Changes**: Commit with a clear message describing your updates.
-    ```sh
-    git commit -m 'Implemented new feature x.'
-    ```
-6. **Push to GitHub**: Push the changes to your forked repository.
-    ```sh
-    git push origin new-feature-x
-    ```
-7. **Submit a Pull Request**: Create a PR against the original project repository. Clearly describe the changes and their motivations.
-
-Once your PR is reviewed and approved, it will be merged into the main branch.
-
-</details>
-
----
-
-## License
-
-This project is protected under the [SELECT-A-LICENSE](https://choosealicense.com/licenses) License. For more details, refer to the [LICENSE](https://choosealicense.com/licenses/) file.
-
----
-
-## Acknowledgments
-
--   List any resources, contributors, inspiration, etc. here.
-
-[**Return**](#-quick-links)
-
----
+```bash
+php artisan serve
+```
