@@ -24,7 +24,7 @@ Ensure you have the following dependencies installed on your system:
 
 | PHP   | Laravel | Composer |
 | ----- | ------- | -------- |
-| 8.3.1 | 11.1.0  | 2.6.6    |
+| 8.2   | 11.1.0  | 2.6.6    |
 
 ### Installation
 
