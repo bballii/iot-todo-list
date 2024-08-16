@@ -1,6 +1,4 @@
-<p align="left">
-    <h1 align="left">IOT-TODO-LIST</h1>
-</p>
+#IOT-TODO-LIST
 
 ## Description
 
