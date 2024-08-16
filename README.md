@@ -4,25 +4,17 @@
 <p align="left">
     <h1 align="left">IOT-TODO-LIST</h1>
 </p>
-<p align="left">
-    <em>HTTP error 401 for prompt `slogan`</em>
-</p>
-<p align="left">
-	<img src="https://img.shields.io/github/license/bballii/iot-todo-list.git?style=flat&color=0080ff" alt="license">
-	<img src="https://img.shields.io/github/last-commit/bballii/iot-todo-list.git?style=flat&logo=git&logoColor=white&color=0080ff" alt="last-commit">
-	<img src="https://img.shields.io/github/languages/top/bballii/iot-todo-list.git?style=flat&color=0080ff" alt="repo-top-language">
-	<img src="https://img.shields.io/github/languages/count/bballii/iot-todo-list.git?style=flat&color=0080ff" alt="repo-language-count">
-<p>
-<p align="left">
-		<em>Developed with the software and tools below.</em>
-</p>
-<p align="left">
-	<img src="https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=flat&logo=JavaScript&logoColor=black" alt="JavaScript">
-	<img src="https://img.shields.io/badge/PHP-777BB4.svg?style=flat&logo=PHP&logoColor=white" alt="PHP">
-	<img src="https://img.shields.io/badge/Vite-646CFF.svg?style=flat&logo=Vite&logoColor=white" alt="Vite">
-	<img src="https://img.shields.io/badge/Axios-5A29E4.svg?style=flat&logo=Axios&logoColor=white" alt="Axios">
-	<img src="https://img.shields.io/badge/JSON-000000.svg?style=flat&logo=JSON&logoColor=white" alt="JSON">
-</p>
+## Description
+**iot-todo-list** is a Laravel-based project that integrates Internet of Things (IoT) functionality with an ESP microcontroller. The ESP, programmed using the Arduino IDE, manages a series of LEDs that visually represent the status of tasks in the to-do list.
+
+## Features
+
+-   **Task Addition:** When a new task is added through the web interface, an LED lights up with a specific color to indicate the task's active status.
+-   **Task Completion:** Marking a task as completed changes the LED's color to represent its completion.
+-   **Task Deletion:** Deleting a task turns off the corresponding LED, reflecting the removal of the task from the list.
+
+This project demonstrates the integration of IoT devices with web applications, providing a visual and interactive approach to task management.
+
 <hr>
 
 ## Quick Links
