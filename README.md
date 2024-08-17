@@ -12,7 +12,7 @@
 
 ## Arduino Code
 
-The code for the ESP microcontroller is available in the [iot-todo-list-arduino](https://github.com/bballii/iot-todo-list-arduino).
+The code for the ESP microcontroller is available in the [iot-todo-list-arduino repository](https://github.com/bballii/iot-todo-list-arduino).
 
 This project demonstrates the integration of IoT devices with web applications, providing a visual and interactive approach to task management.
 
@@ -85,3 +85,5 @@ php artisan migrate
 ```bash
 php artisan serve
 ```
+
+* PS: This is really a practice project and created in a few hours, so the code for both Arduino and Laravel can be messy. I will be optimizing and improving it in further udpates. *
