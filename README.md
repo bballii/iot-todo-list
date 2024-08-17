@@ -86,4 +86,4 @@ php artisan migrate
 php artisan serve
 ```
 
-* PS: This is really a practice project and created in a few hours, so the code for both Arduino and Laravel can be messy. I will be optimizing and improving it in further udpates. *
+***PS: This is really a practice project and created in a few hours, so the code for both Arduino and Laravel can be messy. I will be optimizing and improving it in further udpates.***
