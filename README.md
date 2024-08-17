@@ -12,7 +12,7 @@
 
 ## Arduino Code
 
-The code for the ESP microcontroller is available in the [Arduino repository to be pushed soon](<Arduino Repository URL>).
+The code for the ESP microcontroller is available in the [Arduino repository](https://github.com/bballii/iot-todo-list-arduino).
 
 This project demonstrates the integration of IoT devices with web applications, providing a visual and interactive approach to task management.
 
