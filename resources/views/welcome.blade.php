@@ -26,9 +26,9 @@
 
 <body class="bg-dark text-white" style="height: 100vh;">
     <div class="container py-3 h-100">
-        <div class="row h-100">
+        <div class="row">
             <div class="col">
-                <div class="h-50 d-flex justify-content-center align-items-center">
+                <div class="d-flex justify-content-center align-items-center">
                     <form id="myForm" class="text-center">
                         @csrf
                         <div>
@@ -40,20 +40,22 @@
                     </form>
                 </div>
             </div>
+        </div>
+        <div class="row">
             <div class="col">
-                <div id="todo-list">
+                <div id="todo-list" class="d-flex flex-wrap flex-row">
                     @if (!empty($list))
                         @foreach ($list as $task)
-                            <div class="todo-list-item d-flex justify-content-start align-items-center my-3">
+                            <div class="todo-list-item m-3 border border-1 rounded bg-light text-dark p-2">
+                                @if ($task['status'] == 'done')
+                                    <div class="text-success">{{$task['task']}}</div>
+                                @else
+                                    <div>{{$task['task']}}</div>
+                                @endif
                                 <button class="btn btn-sm btn-danger mx-2 delete-btn" data-id="{{ $task['task_id'] }}"
                                     type="button">Delete</button>
                                 <button class="btn btn-sm btn-primary mx-2 done-btn" data-id="{{ $task['task_id'] }}"
                                     type="button">Done</button>
-                                @if ($task['status'] == 'done')
-                                    <div class="text-success">{{$task['id']}}. {{$task['task']}}</div>
-                                @else
-                                    <div>{{$task['task_id']}}. {{$task['task']}}</div>
-                                @endif
                             </div>
                         @endforeach
                     @endif
