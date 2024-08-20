@@ -4,7 +4,7 @@
     "scripts": {
         "dev": "vite",
         "build": "vite build",
-        "task:serve": "php artisan serve --host=task-light.test"
+        "task-serve": "php artisan serve --host=task-light.test"
     },
     "devDependencies": {
         "axios": "^1.6.4",
