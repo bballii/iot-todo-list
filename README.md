@@ -1,4 +1,4 @@
-# IOT-TODO-LIST
+# TaskLight (IOT-TODO-LIST)
 
 ## Description
 
@@ -22,9 +22,9 @@ This project demonstrates the integration of IoT devices with web applications, 
 
 Ensure you have the following dependencies installed on your system:
 
-| PHP   | Laravel | Composer |
-| ----- | ------- | -------- |
-| 8.2   | 11.1.0  | 2.6.6    |
+| PHP | Laravel | Composer |
+| --- | ------- | -------- |
+| 8.2 | 11.1.0  | 2.6.6    |
 
 ### Installation
 
@@ -86,4 +86,4 @@ php artisan migrate
 php artisan serve
 ```
 
-***PS: This is really a practice project and created in a few hours, so the code for both Arduino and Laravel can be messy. I will be optimizing and improving it in further udpates.***
+**_PS: This is really a practice project and created in a few hours, so the code for both Arduino and Laravel can be messy. I will be optimizing and improving it in further udpates._**
