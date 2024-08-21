@@ -2,7 +2,7 @@
 
 ## Description
 
-**iot-todo-list** is a Laravel-based project that integrates Internet of Things (IoT) functionality with an ESP microcontroller. The ESP, programmed using the Arduino IDE, manages a series of LEDs that visually represent the status of tasks in the to-do list.
+**iot-todo-list** is a Laravel-based project that integrates Internet of Things (IoT) functionality with an ESP microcontroller. The ESP, programmed using the Arduino Framework, manages a series of LEDs that visually represent the status of tasks in the to-do list.
 
 ## Features
 
