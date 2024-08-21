@@ -1,4 +1,4 @@
-# TaskLight - Iot Todo List
+# Task Indicator - IoT Todo List
 
 ## Description
 
