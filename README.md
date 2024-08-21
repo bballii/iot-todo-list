@@ -2,7 +2,7 @@
 
 ## Description
 
-**iot-todo-list** is a Laravel-based project that integrates Internet of Things (IoT) functionality with an ESP microcontroller. The ESP, programmed using the Arduino Framework, manages a series of LEDs that visually represent the status of tasks in the to-do list.
+Task Indicator is a Laravel-based project that integrates Internet of Things (IoT) functionality with an ESP microcontroller. The ESP, programmed using the Arduino Framework, manages a series of LEDs that visually represent the status of tasks in the to-do list.
 
 ## Features
 
@@ -12,7 +12,7 @@
 
 ## Arduino Code
 
-The code for the ESP microcontroller is available in the [iot-todo-list-arduino repository](https://github.com/bballii/iot-todo-list-arduino).
+The code for the ESP microcontroller is available in the [task-indicator-arduino](https://github.com/bballii/task-indicator-arduino).
 
 This project demonstrates the integration of IoT devices with web applications, providing a visual and interactive approach to task management.
 
