@@ -18,6 +18,8 @@ This project demonstrates the integration of IoT devices with web applications, 
 
 ## Getting Started
 
+**_NOTE: If I missed any steps for installation please raise an issue, I will update the readme accordingly if needed._**
+
 **_Requirements_**
 
 Ensure you have the following dependencies installed on your system:
